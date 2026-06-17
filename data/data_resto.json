@@ -1,0 +1,231 @@
+{
+    "kategori_menu_tree": {
+        "nama": "Resto Center",
+        "sub": [
+            {
+                "nama": "Makanan",
+                "sub": [
+                    {
+                        "nama": "Ayam Goreng",
+                        "harga": 25000,
+                        "kode": "M01"
+                    },
+                    {
+                        "nama": "Ayam Bakar",
+                        "harga": 30000,
+                        "kode": "M02"
+                    },
+                    {
+                        "nama": "Ayam Geprek",
+                        "harga": 27000,
+                        "kode": "M03"
+                    },
+                    {
+                        "nama": "Nasi Goreng",
+                        "harga": 20000,
+                        "kode": "M04"
+                    },
+                    {
+                        "nama": "Nasi Uduk",
+                        "harga": 18000,
+                        "kode": "M05"
+                    },
+                    {
+                        "nama": "Mie Goreng",
+                        "harga": 19000,
+                        "kode": "M06"
+                    },
+                    {
+                        "nama": "Mie Rebus",
+                        "harga": 19000,
+                        "kode": "M07"
+                    },
+                    {
+                        "nama": "Sate Ayam",
+                        "harga": 30000,
+                        "kode": "M08"
+                    },
+                    {
+                        "nama": "Sate Kambing",
+                        "harga": 35000,
+                        "kode": "M09"
+                    },
+                    {
+                        "nama": "Steak Sapi",
+                        "harga": 75000,
+                        "kode": "M10"
+                    },
+                    {
+                        "nama": "Burger",
+                        "harga": 28000,
+                        "kode": "M11"
+                    },
+                    {
+                        "nama": "Pizza Mini",
+                        "harga": 40000,
+                        "kode": "M12"
+                    },
+                    {
+                        "nama": "Ikan Bakar",
+                        "harga": 32000,
+                        "kode": "M13"
+                    },
+                    {
+                        "nama": "Lele Goreng",
+                        "harga": 22000,
+                        "kode": "M14"
+                    },
+                    {
+                        "nama": "Tempe Orek",
+                        "harga": 15000,
+                        "kode": "M15"
+                    }
+                ]
+            },
+            {
+                "nama": "Minuman",
+                "sub": [
+                    {
+                        "nama": "Es Teh Manis",
+                        "harga": 5000,
+                        "kode": "D01"
+                    },
+                    {
+                        "nama": "Kopi Susu",
+                        "harga": 15000,
+                        "kode": "D02"
+                    },
+                    {
+                        "nama": "Jus Jeruk",
+                        "harga": 12000,
+                        "kode": "D03"
+                    },
+                    {
+                        "nama": "Jus Alpukat",
+                        "harga": 15000,
+                        "kode": "D04"
+                    },
+                    {
+                        "nama": "Air Mineral",
+                        "harga": 4000,
+                        "kode": "D05"
+                    }
+                ]
+            }
+        ]
+    },
+    "stok_bahan_dict": {
+        "Ayam": 50,
+        "Daging Sapi": 30,
+        "Daging Kambing": 20,
+        "Ikan": 25,
+        "Lele": 20,
+        "Telur": 100,
+        "Beras": 200,
+        "Mie": 100,
+        "Roti": 50,
+        "Keju": 40,
+        "Saus Tomat": 60,
+        "Saus Sambal": 60,
+        "Minyak Goreng": 100,
+        "Mentega": 40,
+        "Tepung": 80,
+        "Garam": 100,
+        "Gula": 150,
+        "Merica": 50,
+        "Cabai": 100,
+        "Bawang Merah": 80,
+        "Bawang Putih": 80,
+        "Kecap": 70,
+        "Mayones": 30,
+        "Selada": 40,
+        "Tomat": 50,
+        "Timun": 50,
+        "Jeruk": 40,
+        "Alpukat": 30,
+        "Teh": 80,
+        "Kopi": 70,
+        "Susu": 60,
+        "Air": 500,
+        "Es Batu": 200,
+        "Coklat": 30,
+        "Vanila": 20,
+        "Daun Bawang": 40,
+        "Seledri": 40,
+        "Tempe": 50,
+        "Tahu": 50,
+        "Sosis": 30
+    },
+    "peta_delivery_graph": {
+        "Restoran": [
+            "Area_A",
+            "Area_B",
+            "Area_C"
+        ],
+        "Area_A": [
+            "Restoran",
+            "Area_D",
+            "Area_E"
+        ],
+        "Area_B": [
+            "Restoran",
+            "Area_F",
+            "Area_G"
+        ],
+        "Area_C": [
+            "Restoran",
+            "Area_H",
+            "Area_I"
+        ],
+        "Area_D": [
+            "Area_A",
+            "Area_J"
+        ],
+        "Area_E": [
+            "Area_A",
+            "Area_K"
+        ],
+        "Area_F": [
+            "Area_B",
+            "Area_L"
+        ],
+        "Area_G": [
+            "Area_B",
+            "Area_M"
+        ],
+        "Area_H": [
+            "Area_C",
+            "Area_N"
+        ],
+        "Area_I": [
+            "Area_C",
+            "Area_O"
+        ],
+        "Area_J": [
+            "Area_D"
+        ],
+        "Area_K": [
+            "Area_E"
+        ],
+        "Area_L": [
+            "Area_F"
+        ],
+        "Area_M": [
+            "Area_G"
+        ],
+        "Area_N": [
+            "Area_H"
+        ],
+        "Area_O": [
+            "Area_I"
+        ]
+    },
+    "antrean_pelanggan_queue": [
+        "Siti"
+    ],
+    "riwayat_pesanan_stack": [
+        "Ayam Goreng",
+        "Kopi Susu",
+        "Nasi Goreng"
+    ]
+}
